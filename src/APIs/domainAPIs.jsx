@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const DOMAINAPIs = axios.create({
-   baseURL: "http://localhost:8080/api/domain"
-  // baseURL : `https://dns-backend-1mfc.onrender.com/api/domain`
+  //  baseURL: "http://localhost:8080/api/domain"
+  baseURL : `https://dns-backend-1mfc.onrender.com/api/domain`
 });
 
 export async function listDomains() {
