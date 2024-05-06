@@ -12,7 +12,6 @@ export async function listHostedZones(code) {
     return response.data;
   } catch (error) {
     console.error(error.message);
-   
   }
 }
 

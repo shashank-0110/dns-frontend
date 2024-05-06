@@ -28,6 +28,7 @@ function Dashboard() {
   const [isCreateOrUpdateDNSRecordOpen, setIsCreateOrUpdateDNSRecordOpen] =
     useState(false);
   const [recordToUpdate, setRecordToUpdate] = useState(null);
+  const [filteredDNSRecords, setFilteredDNSRecords] = useState([]); // Add filteredDNSRecords state
   const [searchQuery, setSearchQuery] = useState("");
   const params = new URLSearchParams(window.location.search);
   const code = params.get("code");
