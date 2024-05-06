@@ -2,7 +2,7 @@ import axios from "axios";
 
 const DNSAPIs = axios.create({
    baseURL: "http://localhost:8080/api/dns"
-  //baseURL : `https://aws-dashboard.onrender.com/api/dns`
+  //baseURL : `https://dns-backend-1mfc.onrender.com/api/dns`
 });
 
 export async function listHostedZones(code) {
